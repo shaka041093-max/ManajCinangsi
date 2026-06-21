@@ -51,7 +51,7 @@ export const generateAttendancePDF = async (report: AttendanceReportData): Promi
     doc.text("DESA CINANGSI", pageWidth / 2, 25, { align: "center" });
     doc.setFontSize(8);
     doc.setFont("helvetica", "normal");
-    doc.text("Jalan H.lbrahim Nomor 01 Cinangsl, Kec. Gandrungmangu, Cilacap, Jawa Tengah,", pageWidth / 2, 29, { align: "center" });
+    doc.text("Jalan H.lbrahim Nomor 01 Cinangsi, Kec. Gandrungmangu, Cilacap, Jawa Tengah,", pageWidth / 2, 29, { align: "center" });
     doc.text("Tlp. 0852-2795-5841, Laman : www.cinangsi-gandrungmangu.cilacapkab.go.id, Pos-el : desacinangsi01@gmail.com", pageWidth / 2, 33, { align: "center" });
     doc.setLineWidth(0.5);
     doc.line(margin, 35, pageWidth - margin, 35);
