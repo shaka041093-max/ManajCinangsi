@@ -84,7 +84,7 @@ export const addKopSuratSync = (doc: jsPDF, img: HTMLImageElement | null, margin
     doc.setFontSize(8);
     doc.setFont("helvetica", "normal");
     doc.text("Jalan H.lbrahim Nomor 01 Cinangsi, Kec. Gandrungmangu, Cilacap, Jawa Tengah,", pageWidth / 2 + 10, 31, { align: "center" });
-    doc.text("Tlp. 0852-2795-5841, Laman : www.cinangsi-gandrungmangu.cilacapkab.go.id, Pos-el : desacinangsi01@gmail.com", pageWidth / 2 + 10, 35, { align: "center" });
+    doc.text("Laman : www.cinangsi-gandrungmangu.cilacapkab.go.id, Pos-el : desacinangsi01@gmail.com", pageWidth / 2 + 10, 35, { align: "center" });
     doc.setFont("helvetica", "bold");
     doc.text("Kode Pos 53254", pageWidth - margin, 38.5, { align: "right" });
     doc.setLineWidth(0.8);
