@@ -1072,7 +1072,7 @@ let y2 = margin + rowH2;
   doc.line(margin + colW2 / 2 - wH2 / 2, y2 + 39, margin + colW2 / 2 + wH2 / 2, y2 + 39);
   doc.setFont("helvetica", "normal");
   doc.setFontSize(9);
-  const verifyText = "Telah diperiksa with keterangan bahwa perjalanan tersebut di atas benar-benar dilakukan atas perintahnya dan semata-mata untuk kepentingan jabatan dalam waktu yang sesingkat-singkatnya.";
+  const verifyText = "Telah diperiksa dengan keterangan bahwa perjalanan tersebut di atas benar-benar dilakukan atas perintahnya dan semata-mata untuk kepentingan jabatan dalam waktu yang sesingkat-singkatnya.";
   const splitVerify = doc.splitTextToSize(verifyText, colW2 - 10);
   doc.text(splitVerify, midX + 5, y2 + 5, { align: "justify", maxWidth: colW2 - 10, lineHeightFactor: 1.15 });
   y2 += rowH2;
